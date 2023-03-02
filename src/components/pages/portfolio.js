@@ -21,9 +21,9 @@ export default function Portfolio() {
     return (
         <div>
             <h1 className="text-center">Projects</h1>
-            <ul className="pl-0">
+            <div className="pl-5 pr-5 cards mx-auto">
                 {projects.map(project => (
-                    <div className="card" key={project.id}>
+                    <div className="card mx-auto cssCard" key={project.id}>
                     <img src={project.image} className="card-img-top" />
                         <div className="card-body">
                             <h5 className="card-title">{project.name}</h5>
@@ -32,7 +32,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 
