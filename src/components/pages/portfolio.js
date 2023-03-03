@@ -20,7 +20,7 @@ export default function Portfolio() {
 
     return (
         <div>
-            <h1 className="text-center">Projects</h1>
+            <h1 className="text-center pt-3 pb-3">Projects</h1>
             <div className="pl-5 pr-5 cards mx-auto">
                 {projects.map(project => (
                     <div className="card mx-auto cssCard" key={project.id}>

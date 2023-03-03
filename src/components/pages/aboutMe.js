@@ -5,7 +5,7 @@ export default function AboutMe() {
     const body = "<h3></h3>"
     return (
         <div className='text-center pl-5 pr-5'>
-            <h1>About Me</h1>
+            <h1 className='pt-3'>About Me</h1>
             <h4>
                 Hello! My name is Jayden Chapman and I am 23 years old, born at the tail end of 1999. I grew up in Washington state,
                 home to the beautiful Pacific North West. I am currently engaged to my beautiful fiancée Bailey, with plans to get

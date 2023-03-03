@@ -1,9 +1,21 @@
+/* Portfolio */
 .cards {
   display: flex;
-  /* justify-content: space-between; */
-
 };
 
 .cssCard {
   flex: 0 1 45%;
+}
+
+/* ContactMe form */
+.formDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* resume picture */
+.resImg {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 10%;
 }

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function ContactMe() {
     return (
-        <div>
-        <h1 className="text-center">Contact Me</h1>
+        <div className='formDiv'>
+        <h1 className="text-center pt-3">Contact Me</h1>
         <form>
             <div className="form-group">
                 <label>Email address</label>
@@ -17,10 +17,8 @@ export default function ContactMe() {
             <label>Message:</label>
             <textarea className="form-control"rows="2"></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Send Message!</button>
         </form>
         </div>
     )
 };
-
-//input="email" or type="email" required 
