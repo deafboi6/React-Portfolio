@@ -28,7 +28,7 @@ export default function Portfolio() {
                         <div className="card-body d-flex flex-column justify-content-center">
                             <h5 className="card-title text-center">{project.name}</h5>
                             <p className="card-text text-center">{project.description}</p>
-                            <a href={project.link} className="btn btn-primary">Visit</a>
+                            <a href={project.link} target={project.link} className="btn btn-primary">Visit</a>
                         </div>
                     </div>
                 ))}
