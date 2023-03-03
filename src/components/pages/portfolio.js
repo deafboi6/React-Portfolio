@@ -23,11 +23,11 @@ export default function Portfolio() {
             <h1 className="text-center pt-3 pb-3">Projects</h1>
             <div className="pl-5 pr-5 cards mx-auto">
                 {projects.map(project => (
-                    <div className="card mx-auto cssCard" key={project.id}>
+                    <div className="card m-2 cssCard" key={project.id}>
                     <img src={project.image} className="card-img-top" />
-                        <div className="card-body">
-                            <h5 className="card-title">{project.name}</h5>
-                            <p className="card-text">{project.description}</p>
+                        <div className="card-body d-flex flex-column justify-content-center">
+                            <h5 className="card-title text-center">{project.name}</h5>
+                            <p className="card-text text-center">{project.description}</p>
                             <a href={project.link} className="btn btn-primary">Visit</a>
                         </div>
                     </div>
